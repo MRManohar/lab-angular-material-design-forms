@@ -1,0 +1,28 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Register</mat-card-title>
+    </mat-card-header>
+    <form class="example-form">
+        <mat-form-field class="example-full-width">
+            <mat-label>Username</mat-label>
+            <input matInput placeholder="Ex. Pizza">
+        </mat-form-field><br><br>
+        <mat-form-field class="example-full-width">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="Ex. anc@def.ghi">
+        </mat-form-field><br><br>
+        <mat-form-field class="example-full-width">
+            <mat-label>Password</mat-label>
+            <input matInput placeholder="Ex. Password">
+        </mat-form-field><br><br>
+        <mat-form-field appearance="fill" class="example-full-width">
+            <mat-label>Choose a role</mat-label>
+            <mat-select [(value)]="selected">
+              <mat-option>None</mat-option>
+              <mat-option value="ProGrad">ProGad</mat-option>
+              <mat-option value="Mentor">Mentor</mat-option>
+            </mat-select>
+          </mat-form-field><br><br>
+        <button mat-stroked-button color="warn">Register</button>   
+    </form>
+</mat-card>

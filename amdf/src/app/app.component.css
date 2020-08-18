@@ -1,0 +1,11 @@
+.bgp{
+    font-family: sans-serif;
+    background-image: url(../assets/images.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
